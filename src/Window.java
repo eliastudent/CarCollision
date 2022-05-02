@@ -6,8 +6,8 @@ public class Window extends JFrame {
         Window window = new Window();
     }
 
-    public static final int WINDOW_WHIDTH = 400;
-    public static final int WINDOW_HIGHET = 500;
+    public static final int WINDOW_WHIDTH = 700          ;
+    public static final int WINDOW_HIGHET = 600;
 
     public Window() {
         GameScen gameScene = new GameScen(0, 0, WINDOW_WHIDTH, WINDOW_HIGHET);

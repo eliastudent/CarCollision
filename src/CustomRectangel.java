@@ -1,17 +1,18 @@
 import java.awt.*;
 import javax.swing.*;
+//obstaclesRectangel = new Rectangle(this.x, this.y, this.width, this.heighet);
 
-public class CustomRectangel {
+     //   if (CarRectangel.intersects(obstaclesRectangel)) {`
+      //  S
+
+public class CustomRectangel extends JFrame {
     private int x;
     private int y;
     private int width;
     private int heighet;
     private Color color;
 
-    public void Paint(Graphics Graphics) {
-        Graphics.fillRect(this.x, this.y, this.width, this.heighet);
-        Graphics.setColor(this.color);
-    }
+
 
     public CustomRectangel(int x, int y, int width, int heighet, Color color) {
         this.x = x;
@@ -55,13 +56,14 @@ public class CustomRectangel {
         this.y++;
     }
 
-    public boolean CheckCollision(CustomRectangel other) {
-        boolean collision = false;
-        Rectangle thisRectangel = new Rectangle(this.x, this.y, this.width, this.heighet);
-        Rectangle otherRectangel = new Rectangle(other.x, other.y, other.width, other.heighet);
-        if (thisRectangel.intersects(otherRectangel)) {
-            collision = true;
-        }
-        return collision;
+ //   public boolean CheckCollision(CustomRectangel other) {
+   //     boolean collision = false;
+        //Rectangle CarRectangel = new Rectangle(this.x, this.y, this.width, this.heighet);
+        //Rectangle obstaclesRectangel = new Rectangle(this.x, this.y, this.width, this.heighet);
+
+
+           // collision = true;
+      //  }
+        //return collision;
     }
-}
+//}
